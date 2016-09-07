@@ -1,4 +1,5 @@
 import /init.board.rc
+import /init.swap.rc
 import /init.scx15.usb.rc
 import /init.scx15_ss.rc
 
