@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
 	Gallery2 \
 	Launcher3 \
 	Stk \
+	SpeechRecorder \
 
 # Device identifier
 PRODUCT_DEVICE := vivalto3gvn
