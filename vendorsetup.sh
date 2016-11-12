@@ -21,10 +21,7 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-for rom in aosp cm
-do
-  for targetBuildVariant in eng user userdebug
-  do
-    add_lunch_combo ${rom}_vivalto3gvn-${targetBuildVariant}
-  done
-done
+
+add_lunch_combo bliss_vivalto3gvn-eng
+add_lunch_combo bliss_vivalto3gvn-user
+add_lunch_combo bliss_vivalto3gvn-userdebug
