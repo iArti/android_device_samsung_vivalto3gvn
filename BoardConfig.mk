@@ -157,3 +157,8 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 BOARD_UMS_LUNFILE := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun/file"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun/file"
 endif
+
+# Bliss optimizations
+BLISS_O3 := true
+BLISS_GRAPHITE := true
+BLISS_PIPE := true
